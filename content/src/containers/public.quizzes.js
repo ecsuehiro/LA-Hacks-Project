@@ -46,7 +46,6 @@ export default class PublicQuizzes extends Component {
 
   onResult = obj => {
     console.log(obj.finalTranscript)
-    const response = "Did you say " + obj.finalTranscript
     this.setState({
       recognize: false,
       continuous: false,
@@ -110,7 +109,7 @@ export default class PublicQuizzes extends Component {
               <div className="card-image fadeContainer">
                 <img src={MLKPic} className="preFade" alt="" />
                 <div className="overlay">
-                  <a onClick={this.getQuiz} href="#">
+                  <a onClick={this.getQuiz} href="javascript:void(0)">
                     <div id="history" className="fadeText">History</div>
                   </a>
                 </div>
@@ -125,7 +124,7 @@ export default class PublicQuizzes extends Component {
               <div className="card-image fadeContainer">
                 <img src={MathPic} className="preFade" alt="" />
                 <div className="overlay">
-                  <a onClick={this.getQuiz} href="#">
+                  <a onClick={this.getQuiz} href="javascript:void(0)">
                     <div id="math" className="fadeText">
                       Math
                     </div>
@@ -142,7 +141,7 @@ export default class PublicQuizzes extends Component {
               <div className="card-image fadeContainer">
                 <img src={SciencePic} className="preFade" alt="" />
                 <div className="overlay">
-                  <a onClick={this.getQuiz} href="#">
+                  <a onClick={this.getQuiz} href="javascript:void(0)">
                     <div id="chemistry" className="fadeText">
                       Chemistry
                     </div>
@@ -159,7 +158,7 @@ export default class PublicQuizzes extends Component {
               <div className="card-image fadeContainer">
                 <img src={LiteraturePic} className="preFade" alt="" />
                 <div className="overlay">
-                  <a onClick={this.getQuiz} href="#">
+                  <a onClick={this.getQuiz} href="javascript:void(0)">
                     <div id="literature" className="fadeText">
                       Literature
                     </div>
@@ -178,7 +177,7 @@ export default class PublicQuizzes extends Component {
               <div className="card-image fadeContainer">
                 <img src={MusicPic} className="preFade" alt="" />
                 <div className="overlay">
-                  <a onClick={this.getQuiz} href="#">
+                  <a onClick={this.getQuiz} href="javascript:void(0)">
                     <div id="music" className="fadeText">
                       Music
                     </div>
@@ -195,7 +194,7 @@ export default class PublicQuizzes extends Component {
               <div className="card-image fadeContainer">
                 <img src={ArtPic} className="preFade" alt="" />
                 <div className="overlay">
-                  <a onClick={this.getQuiz} href="#">
+                  <a onClick={this.getQuiz} href="javascript:void(0)">
                     <div id="art" className="fadeText">
                       Art
                     </div>
@@ -212,7 +211,7 @@ export default class PublicQuizzes extends Component {
               <div className="card-image fadeContainer">
                 <img src={CulinaryPic} className="preFade" alt="" />
                 <div className="overlay">
-                  <a onClick={this.getQuiz} href="#">
+                  <a onClick={this.getQuiz} href="javascript:void(0)">
                     <div id="culinaryArts" className="fadeText">
                       Culinary Arts
                     </div>
@@ -229,7 +228,7 @@ export default class PublicQuizzes extends Component {
               <div className="card-image fadeContainer">
                 <img src={LogicPic} className="preFade" alt="" />
                 <div className="overlay">
-                  <a onClick={this.getQuiz} href="#">
+                  <a onClick={this.getQuiz} href="javascript:void(0)">
                     <div id="philosophy" className="fadeText">
                       Philosophy
                     </div>
